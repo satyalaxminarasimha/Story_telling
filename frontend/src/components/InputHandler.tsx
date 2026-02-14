@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { Pencil, Image, Type, ChevronLeft, Settings, Loader2 } from 'lucide-react';
+import { Pencil, Image, Type, Settings, Loader2 } from 'lucide-react';
 import type { InputHandlerProps, InputType, AgeGroup, StoryRequest } from '../types';
 import { DrawingCanvas } from './DrawingCanvas';
 import { FileUpload } from './FileUpload';
@@ -36,7 +36,6 @@ interface ExtendedInputHandlerProps extends InputHandlerProps {
 }
 
 export const InputHandler: React.FC<ExtendedInputHandlerProps> = ({
-  onStoryGenerated,
   onError,
   isLoading,
   onSubmit,

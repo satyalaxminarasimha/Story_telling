@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { Search, Sparkles, Tag, Lightbulb } from 'lucide-react';
+import { Sparkles, Tag, Lightbulb } from 'lucide-react';
 import type { KeywordInputProps } from '../types';
 
 const SUGGESTED_TOPICS = [

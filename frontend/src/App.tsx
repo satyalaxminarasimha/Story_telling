@@ -5,14 +5,14 @@
  * stories from children's sketches, diagrams, or keywords.
  */
 
-import React, { useState, useCallback } from 'react';
+import { useState, useCallback } from 'react';
 import { BookOpen, Sparkles, Volume2, ArrowLeft, RefreshCw } from 'lucide-react';
 import { InputHandler } from './components/InputHandler';
 import { StoryDisplay } from './components/StoryDisplay';
 import { QuizModule } from './components/QuizModule';
 import { AudioPlayer } from './components/AudioPlayer';
 import { useStoryGeneration } from './hooks/useStoryGeneration';
-import type { StoryRequest, StoryResponse } from './types';
+import type { StoryRequest } from './types';
 
 type AppView = 'input' | 'story' | 'quiz';
 

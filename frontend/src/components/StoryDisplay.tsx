@@ -4,7 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { BookOpen, Sparkles, Volume2, HelpCircle, RefreshCw, ChevronRight } from 'lucide-react';
+import { BookOpen, Sparkles, HelpCircle, RefreshCw, ChevronRight } from 'lucide-react';
 import type { StoryDisplayProps } from '../types';
 
 export const StoryDisplay: React.FC<StoryDisplayProps> = ({

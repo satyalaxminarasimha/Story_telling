@@ -49,7 +49,7 @@ export const QuizModule: React.FC<QuizModuleProps> = ({
   const handleNextQuestion = () => {
     if (isLastQuestion) {
       // Calculate final score
-      const correctCount = state.answers.reduce((count, answer, index) => {
+      const correctCount = state.answers.reduce<number>((count, answer, index) => {
         if (answer === quiz.questions[index].correct_answer) {
           return count + 1;
         }

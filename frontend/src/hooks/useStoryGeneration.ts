@@ -6,8 +6,6 @@ import { useState, useCallback } from 'react';
 import {
   StoryResponse,
   ImageAnalysisResult,
-  InputType,
-  AgeGroup,
   StoryRequest,
 } from '../types';
 import { storyApi, audioApi } from '../services/api';
