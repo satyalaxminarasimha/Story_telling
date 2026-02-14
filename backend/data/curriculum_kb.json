@@ -1,0 +1,154 @@
+{
+  "topics": [
+    {
+      "id": "science_photosynthesis",
+      "name": "Photosynthesis",
+      "subject": "Science",
+      "grade_range": "3-5",
+      "description": "How plants make food using sunlight",
+      "keywords": ["plant", "sun", "leaf", "green", "tree", "flower", "garden", "grow", "nature"],
+      "learning_objectives": [
+        "Understand how plants produce food",
+        "Learn about the role of sunlight in plant growth",
+        "Identify parts of a plant"
+      ],
+      "related_topics": ["plant_parts", "ecosystems", "food_chain"],
+      "story_themes": ["magical garden", "talking plants", "sun adventure", "growing seeds"]
+    },
+    {
+      "id": "science_water_cycle",
+      "name": "Water Cycle",
+      "subject": "Science",
+      "grade_range": "2-4",
+      "description": "The journey of water through evaporation, condensation, and precipitation",
+      "keywords": ["water", "rain", "cloud", "river", "ocean", "drop", "wet", "lake", "stream"],
+      "learning_objectives": [
+        "Understand evaporation and condensation",
+        "Learn about precipitation",
+        "Trace water's journey through nature"
+      ],
+      "related_topics": ["weather", "states_of_matter", "ecosystems"],
+      "story_themes": ["raindrop journey", "cloud adventures", "river tales", "ocean exploration"]
+    },
+    {
+      "id": "math_shapes",
+      "name": "Geometric Shapes",
+      "subject": "Mathematics",
+      "grade_range": "K-2",
+      "description": "Basic 2D and 3D shapes and their properties",
+      "keywords": ["circle", "square", "triangle", "rectangle", "shape", "round", "corner", "side", "ball", "box"],
+      "learning_objectives": [
+        "Identify basic shapes",
+        "Count sides and corners",
+        "Recognize shapes in everyday objects"
+      ],
+      "related_topics": ["measurement", "symmetry", "patterns"],
+      "story_themes": ["shape kingdom", "geometry adventure", "pattern magic", "building fun"]
+    },
+    {
+      "id": "science_animals",
+      "name": "Animal Classification",
+      "subject": "Science",
+      "grade_range": "2-4",
+      "description": "Grouping animals by their characteristics",
+      "keywords": ["animal", "mammal", "bird", "fish", "reptile", "insect", "pet", "wild", "dog", "cat", "lion", "elephant"],
+      "learning_objectives": [
+        "Classify animals into groups",
+        "Identify animal characteristics",
+        "Understand different habitats"
+      ],
+      "related_topics": ["habitats", "food_chain", "life_cycles"],
+      "story_themes": ["animal friends", "forest adventure", "ocean journey", "safari trip"]
+    },
+    {
+      "id": "science_space",
+      "name": "Solar System",
+      "subject": "Science",
+      "grade_range": "3-5",
+      "description": "Planets, stars, and space exploration",
+      "keywords": ["planet", "star", "moon", "sun", "rocket", "space", "earth", "sky", "astronaut", "mars"],
+      "learning_objectives": [
+        "Name the planets in order",
+        "Understand day and night",
+        "Learn about the moon phases"
+      ],
+      "related_topics": ["gravity", "seasons", "earth_science"],
+      "story_themes": ["space adventure", "planet exploration", "starlight journey", "rocket mission"]
+    },
+    {
+      "id": "science_human_body",
+      "name": "Human Body",
+      "subject": "Science",
+      "grade_range": "2-5",
+      "description": "Body parts and their functions",
+      "keywords": ["body", "heart", "brain", "bone", "muscle", "hand", "eye", "ear", "nose", "teeth"],
+      "learning_objectives": [
+        "Identify major body parts",
+        "Understand organ functions",
+        "Learn about staying healthy"
+      ],
+      "related_topics": ["nutrition", "exercise", "senses"],
+      "story_themes": ["body adventure", "health heroes", "sense exploration", "inside journey"]
+    },
+    {
+      "id": "social_community",
+      "name": "Community Helpers",
+      "subject": "Social Studies",
+      "grade_range": "K-2",
+      "description": "People who help in our community",
+      "keywords": ["doctor", "teacher", "firefighter", "police", "nurse", "helper", "work", "hospital", "school"],
+      "learning_objectives": [
+        "Identify community helpers",
+        "Understand different jobs",
+        "Appreciate community service"
+      ],
+      "related_topics": ["citizenship", "safety", "family"],
+      "story_themes": ["helper heroes", "community adventure", "job day", "thank you helpers"]
+    },
+    {
+      "id": "science_weather",
+      "name": "Weather Patterns",
+      "subject": "Science",
+      "grade_range": "1-3",
+      "description": "Understanding different types of weather",
+      "keywords": ["weather", "sunny", "cloudy", "rainy", "windy", "snow", "storm", "temperature", "hot", "cold"],
+      "learning_objectives": [
+        "Identify different weather types",
+        "Understand weather patterns",
+        "Learn about seasons and climate"
+      ],
+      "related_topics": ["water_cycle", "seasons", "climate"],
+      "story_themes": ["weather friends", "season journey", "cloudy day adventure", "rainbow quest"]
+    },
+    {
+      "id": "math_numbers",
+      "name": "Numbers and Counting",
+      "subject": "Mathematics",
+      "grade_range": "K-2",
+      "description": "Learning numbers, counting, and basic operations",
+      "keywords": ["number", "count", "one", "two", "three", "add", "subtract", "more", "less", "equal"],
+      "learning_objectives": [
+        "Count objects accurately",
+        "Recognize number symbols",
+        "Understand basic addition and subtraction"
+      ],
+      "related_topics": ["patterns", "measurement", "problem_solving"],
+      "story_themes": ["counting adventure", "number kingdom", "math quest", "sharing story"]
+    },
+    {
+      "id": "science_dinosaurs",
+      "name": "Dinosaurs and Fossils",
+      "subject": "Science",
+      "grade_range": "2-4",
+      "description": "Learning about prehistoric life and fossils",
+      "keywords": ["dinosaur", "fossil", "prehistoric", "trex", "bones", "extinct", "ancient", "dig"],
+      "learning_objectives": [
+        "Identify different dinosaur types",
+        "Understand what fossils are",
+        "Learn about extinction and prehistoric times"
+      ],
+      "related_topics": ["earth_history", "animals", "science_methods"],
+      "story_themes": ["dinosaur adventure", "fossil hunt", "time travel", "prehistoric friends"]
+    }
+  ]
+}
