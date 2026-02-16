@@ -39,6 +39,8 @@ export const InputHandler: React.FC<ExtendedInputHandlerProps> = ({
   onError,
   isLoading,
   onSubmit,
+  // Note: onStoryGenerated is inherited from InputHandlerProps but not used
+  // as story generation is handled externally via onSubmit
 }) => {
   const [state, setState] = useState<InputHandlerState>({
     activeTab: 'sketch',

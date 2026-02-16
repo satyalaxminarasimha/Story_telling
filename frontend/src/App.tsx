@@ -30,8 +30,10 @@ function App() {
   } = useStoryGeneration();
 
   const handleSubmit = useCallback(async (request: StoryRequest) => {
-    await generateStory(request);
-    setCurrentView('story');
+    const success = await generateStory(request);
+    if (success) {
+      setCurrentView('story');
+    }
   }, [generateStory]);
 
   const handleQuizStart = useCallback(() => {
@@ -223,7 +225,7 @@ function App() {
             <QuizModule
               quiz={story.quiz}
               onComplete={handleQuizComplete}
-              onRetry={() => {}}
+              onRetry={handleBackToStory}
             />
           </div>
         )}

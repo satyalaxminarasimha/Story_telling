@@ -20,7 +20,7 @@ interface UseStoryGenerationState {
 }
 
 interface UseStoryGenerationReturn extends UseStoryGenerationState {
-  generateStory: (request: StoryRequest) => Promise<void>;
+  generateStory: (request: StoryRequest) => Promise<boolean>;
   generateAudio: () => Promise<void>;
   reset: () => void;
   clearError: () => void;
@@ -36,7 +36,7 @@ export function useStoryGeneration(): UseStoryGenerationReturn {
     currentStep: 'input',
   });
 
-  const generateStory = useCallback(async (request: StoryRequest) => {
+  const generateStory = useCallback(async (request: StoryRequest): Promise<boolean> => {
     setState(prev => ({
       ...prev,
       isLoading: true,
@@ -54,6 +54,7 @@ export function useStoryGeneration(): UseStoryGenerationReturn {
         story,
         currentStep: 'complete',
       }));
+      return true;
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Failed to generate story';
       setState(prev => ({
@@ -62,6 +63,7 @@ export function useStoryGeneration(): UseStoryGenerationReturn {
         error: errorMessage,
         currentStep: 'input',
       }));
+      return false;
     }
   }, []);
 

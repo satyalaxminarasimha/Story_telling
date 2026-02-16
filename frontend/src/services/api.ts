@@ -240,7 +240,10 @@ export const audioApi = {
  */
 export const healthCheck = async (): Promise<boolean> => {
   try {
-    const response = await apiClient.get('/health');
+    // Health check is at root level, not under /api
+    const baseUrl = import.meta.env.VITE_API_URL || '';
+    const healthUrl = baseUrl.replace(/\/api$/, '') + '/health';
+    const response = await axios.get(healthUrl);
     return response.data.status === 'healthy';
   } catch {
     return false;
